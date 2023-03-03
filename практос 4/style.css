@@ -1,0 +1,33 @@
+table {
+    padding: 3px;
+    border: 5px outset #BFBFBF;
+    margin: auto;
+}
+
+caption {
+    color: #B01830;
+    font-weight: bold;
+    font-family: 'Bodoni', regular;
+    margin:16px;
+}
+
+th {
+    font-family: 'Bodoni', serif;
+    border: 1px inset #BFBFBF;
+    padding: 3px;
+}
+
+td {
+    font-family: 'Bodoni', serif;
+    border: 1px inset #BFBFBF;
+    padding: 3px;
+}
+
+.first {
+    color: #B01830;
+    background-color: #BFBFBF;
+}
+
+
+
+

@@ -1,0 +1,39 @@
+#wrapper {
+	position: relative;
+	width: 200px;
+	height: 420px;
+	margin: 0px auto;
+	border: 1px solid black;
+}
+
+#elem1, #elem2, #elem3 {
+	border: 1px solid black;
+	border-radius: 50%;
+}
+
+#elem1 {
+	background-color: red;
+	position: absolute;
+	left: 50px;
+	top: 40px;
+	width: 100px;
+	height: 100px;
+}
+
+#elem2 {
+	background-color: yellow;
+	position: absolute;
+	left: 50px;
+	top: 160px;
+	width: 100px;
+	height: 100px;
+}
+
+#elem3{
+	background-color: green;
+	position: absolute;
+	left: 50px;
+	top: 280px;
+	width: 100px;
+	height: 100px;
+}

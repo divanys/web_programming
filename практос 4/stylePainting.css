@@ -1,0 +1,41 @@
+.first {
+    background: #B06760;
+}
+
+table{
+    border: 5px outset white;
+    margin: auto;
+    width: 600px;
+    text-align: left;
+}
+
+caption {
+    color: #B01830;
+    font-weight: bold;
+    margin: 20px 0px 9px 0px;
+}
+
+th {
+    border: 1px inset #FFF;
+}
+
+td {
+    border: 1px inset #FFF;
+}
+.tdth {
+    font-weight: bold;
+}
+body{
+    background-color: #F0D8D0;
+    text-align: left;
+}
+
+.three {
+    color: #FFF;
+    text-align: center;
+    overflow-wrap: break-word;
+    max-width: 145px;
+}
+
+
+ /*осталось понять как сделать меньше колонку художника и как сделать отступ*/

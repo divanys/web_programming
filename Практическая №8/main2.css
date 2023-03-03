@@ -1,0 +1,26 @@
+body{
+    width: 40%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 0px 10px;
+}
+span{
+    color: green;
+    font-weight: bold;
+}
+a, a:active, a:visited{
+    color: palevioletred;
+    font-weight: bold;
+    text-decoration: none;
+}
+.link{
+    text-align: right;
+}
+.li-like{
+    text-indent: 5%;
+}
+h1{text-align: center;}
+h2{
+    color: palevioletred;
+    text-align: center;
+}

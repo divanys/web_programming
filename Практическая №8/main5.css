@@ -1,0 +1,22 @@
+body{
+    border: 1px solid red;
+    border-radius: 30px;
+    margin: 10px auto;
+    width: 60%;
+    padding: 20px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2{color: maroon}
+.red{color: red;}
+.green{color: green;}
+.author{
+    font-style: italic;
+    text-align: right;
+    margin-right: 12%;
+}
+span{
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+p{text-align: justify;}
