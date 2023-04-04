@@ -1,0 +1,26 @@
+body {
+    background-image: url("img/bg.gif");
+}
+
+table{
+    background-color: white;
+    width: 800px;
+    border: 2px solid black;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td{
+    width: 25%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+th{
+    text-align: center;
+}
+
+
+hr{
+    border: 1px solid black;
+}

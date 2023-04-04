@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <form action="" method="post">
+            <input type="text" placeholder="Плейсхолдер"><br>
+            <input type="text" value="Value"><br>
+            <input type="text" placeholder="disabled" disabled><br>
+            <input type="password" value="Value"><br>
+            <textarea placeholder="Введите текст"></textarea><br>
+            <input type="submit" value="кнопка через тег input"><br>
+            <button type="submit">кнопка через тег button</button><br>
+        </form>
+        <form>
+            <input type="text" placeholder="Плейсхолдер" id="2"> <label for="2">Это метка для инпута - нажмите на меня и инпут получит фокус! </label>
+            <input type="submit" value="Отправить на сервер">
+        </form>
+        <form id="redish">
+            <input type="checkbox" id="1"><label for="1">Это метка для чекбокса: нажмите на меня - чекбокс сменит галочку!</label><br>
+            <input type="checkbox" checked> <label>Я отмечен по умолчанию</label><br>
+            <input type="checkbox" checked disabled><label> Я disabled!</label><br>
+            <article>
+                Это группа радиокнопок - только одна из них может быть отмечена!<br>
+                <input type="radio" name="1" id="3"> <label for="3">Это метка для радио</label> <br>
+                <input type="radio" name="1" id="4"> <label for="4">Это метка для радио</label> <br>
+            </article>
+            <input type="submit" value="Отправить на сервер">
+        </form>
+        <form>
+            <select multiple name="city[]" size="1">
+                <option>Нью Йорк</option>
+                <option>Киев</option>
+                <option>Москва</option>
+            </select>
+            <select multiple name="city[]" size="3">
+                <option>Нью Йорк</option>
+                <option>Киев</option>
+                <option>Москва</option>
+            </select>
+            <select multiple name="city[]" size="5">
+                <option>Нью Йорк</option>
+                <option>Киев</option>
+                <option>Москва</option>
+                <option>Варшава</option>
+                <option>Минск</option>
+            </select>
+            <input type="submit" value="Отправить на сервер">
+        </form>
+        <form>
+            <input type="file">
+            <input type="submit" value="Отправить на сервер">
+        </form>
+            
+        <form>
+            <fieldset>
+                <legend>Выберите кнопочку </legend>
+                <input type="radio" name='2' id="5"> <label for="5"></label> 
+                <input type="radio" name='2' id="6"> <label for="6"></label>
+                <input type="radio" name='2' id="7"> <label for="7"></label>
+                <input type="text" placeholder="Ваше имя...">
+            </fieldset>
+            <fieldset>
+                <legend>Выберите еще кнопочку </legend>
+                <input type="radio" name='3' id="8"> <label for="8"></label> 
+                <input type="radio" name='3' id="9"> <label for="9"></label>
+                <input type="radio" name='3' id="10"> <label for="10"></label>
+                <input type="radio" name='3' id="11"> <label for="11"></label>
+                <input type="radio" name='3' id="12"> <label for="12"></label>
+            </fieldset>
+            <input type="submit" value="Отправить на сервер">
+        </form>
+        <form>
+            <textarea id="t1" placeholder="resize both"></textarea><br>
+            <textarea id="t2" placeholder="resize horizontal"></textarea><br>
+            <textarea id="t3" placeholder="resize vertical"></textarea><br>
+            <textarea id="t4" placeholder="resize none"></textarea><br>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+body{
+    background-color: #eccac3;
+}
+caption{
+    color: darkred;
+    font-size: 16pt;
+    margin: 20px 0px 9px 0px;
+}
+table{
+    border: 5px outset white;
+    margin: auto;
+    width: 600px;
+    text-align: left;
+}
+td, th{
+    border: 2px inset silver;
+}
+.col1{
+    background-color: #b16760;
+    color: white;
+    width: 150px; 
+    text-align: center;
+}
