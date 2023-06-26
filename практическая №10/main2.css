@@ -1,0 +1,16 @@
+td{width: 180px;}
+td input, select, textarea, select{width: 100%;}
+body{color: rgb(119, 34, 34);}
+fieldset{border: 1px solid rgb(92, 189, 156);}
+legend{color: rgb(92, 189, 156);}
+form{width: fit-content;}
+h4{margin: 5px 0px;}
+#button{
+    margin: 10px 2px;
+    color: rgb(119, 34, 34);
+    padding: 7px 15px;
+    font-size: 15px;
+    background: linear-gradient(white, rgb(92, 189, 156));
+    border: 1px solid rgb(92, 189, 156);
+    border-radius: 2px;
+}

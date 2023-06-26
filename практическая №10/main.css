@@ -1,0 +1,28 @@
+body{font-family: 'Times New Roman', Times, serif;}
+#content{
+    background-color: rgba(81, 162, 255, 0.959);
+    padding: 25px;
+    width: fit-content;
+    border: 1px solid rgba(81, 162, 255, 0.959);
+    border-radius: 5px;
+}
+h3{
+    margin: 10px;
+    color: #523207;
+}
+td{width: 150px;}
+textarea{
+    width: 170px;
+    resize: none;
+}
+#submit{
+    border: 0px;
+    border-radius: 30px;
+    font-size: 15pt;
+    color: white;
+    background-color: lightblue;
+    padding: 5px;
+    height: 30px;
+    margin: 25px 60px;
+    align-self: center;
+}

@@ -1,0 +1,91 @@
+.page{
+	margin: 30px auto;
+	border: 1px solid #000;
+	display: grid;
+	max-width: 900px;
+	/* Задаются колонки и строки для сетки. В данном случае, устанавливается повторение 5 колонок с равными долевыми 
+	значениями (grid-template-columns: repeat(5, 1fr);) и 6 строк с равными долевыми значениями 
+	(grid-template-rows: repeat(6, 1fr);). */
+	grid-template-columns: repeat(5, 1fr); 
+	grid-template-rows:  repeat(6, 1fr);
+}
+
+/* Задается область сетки для элемента с классом .head__logo.
+ Он занимает первую строку и первую колонку сетки (grid-area: 1/1/2/2;). */
+.head__logo{
+	grid-area: 1/1/2/2;
+}
+
+/* Задается область сетки для элемента с классом .main__content. 
+Он занимает от второй строки до шестой строки и от второй колонки до пятой колонки сетки (grid-area: 2/2/6/5;). */
+.main__content{
+	grid-area: 2/2/6/5;
+	text-align: justify;
+	padding: 10px;
+	border: 1px solid black;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+/* Задается область сетки для элемента с классом .left. 
+Он занимает от второй строки до шестой строки и первую колонку до пятой колонки сетки (grid-area: 2/1/6/5;). */
+.left{
+	grid-area: 2/1/6/5;
+	text-align: justify;
+	padding: 10px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+/* Задается область сетки для элемента с классом .right. 
+Он занимает от второй строки до шестой строки и пятую колонку сетки (grid-area: 2/5/6;). */
+.right{
+	grid-area: 2/5/6;
+	text-align: justify;
+	padding: 10px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+/* Задается сетка для элемента с классом .page-f.
+ Он занимает шестую строку и все шесть колонок сетки (grid-area: 6/1/6/6;). */
+.page-f{
+	display: grid;
+	grid-area: 6/1/6/6;
+	border: 1px solid black;
+}
+
+/* Задается область сетки для элемента с классом .page__footer. 
+Он занимает шестую строку и первую колонку сетки (grid-area: 6/1;). */
+.page__footer{
+	grid-area: 6/1;
+	justify-self: center;
+	align-self: flex-end;
+}
+
+/* Задается область сетки для элемента с классом .head__nav. 
+Он занимает первую строку и от второй до четвертой колонки сетки (grid-area: 1/2/2/5;). */
+.head__nav{
+	margin-top: 20px;
+	grid-area: 1/2/2/5;
+	display: flex;
+	flex-direction: column;
+}
+.nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 500px;
+	padding: 10px;
+	border: 1px solid black;
+}
+a{
+	color: blue;
+}
+.nav__el a:hover{
+	color: red;
+}
+.nav-link{
+	font-weight: bold;
+	margin-bottom: 5px;
+}

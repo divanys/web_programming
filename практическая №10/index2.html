@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Практическая 10</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="main2.css">
+    </head>
+    <body>
+        <h1>Анкета посетителя ресторана</h1>
+        <form>
+            
+            <fieldset>
+                <legend>Контактная информация</legend>
+                <table>
+                    <tr><td><label>Имя</label></td>  <td><input type="text" name="name"></td></tr>
+                    <tr><td><label>Телефон</label></td> <td><input type="tel" name="tel"></td></tr>
+                    <tr><td><label>Email</label></td> <td><input type="email" name="email"></td></tr>
+                    <tr><td><label>Дата посещения</label></td> <td><input type="date" name="date"></td></tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Персональная информация</legend>
+                <table>
+                    <tr><td><label>Возраст</label></td> <td><input type="number" name="old" min="1" max="100" step="1"></td></tr>
+                    <tr><td><label>Любимая кухня</label></td>
+                    <td><select size="1">
+                        <option>Русская кухня</option>
+                        <option>Кавказская кухня</option>
+                        <option>Украинская кухня</option>
+                    </select>
+                    </td></tr>
+                    <tr><td><label>Какие блюда вы хотели бы увидеть в меню?</label></td> <td><textarea></textarea></td></tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Оценка нашего заведения</legend>
+                <h4>Почему вы выбрали именно наше заведение?</h4>
+                <label><input type="radio" name="1" id="1">Недалеко от дома/работы</label><br>
+                <label><input type="radio" name="1" id="2">Увидел рекламу</label><br>
+                <label><input type="radio" name="1" id="3">Посоветовали</label><br>
+                <label><input type="radio" name="1" id="4">Оптимальное соотношение цены и качества</label><br>
+                <h4>Вы будете рекомендовать наше заведение своим знакомым?</h4>
+                <label><input type="radio" name="2" id="5">Да</label><br>
+                <label><input type="radio" name="2" id="6">Нет</label>
+            </fieldset>
+            <input type="submit" value="Отправить" id="button">
+        </form>
+    </body>
+</html>

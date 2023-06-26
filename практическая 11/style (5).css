@@ -1,0 +1,152 @@
+header, body{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	width: 935px;
+	margin: auto;
+	background: url(images/fon00000.jpg);
+}
+
+.flex-container{
+	display: flex;
+	width: 935px;
+	margin: auto;
+	background: url(images/fon00000.jpg);
+}
+
+header{
+	border-bottom: 1px solid slategrey;
+	margin-bottom: 10px;
+}
+
+.flex-menu{
+	flex-basis: 135px;
+	margin-top: 10px;
+}
+
+.flex-text{
+	flex-basis: 800px;
+}
+
+h3, h4, h2{
+	text-align: center;
+	color: #F400A1;
+}
+
+h2{
+	text-align: left;
+	font-size: 16px;
+}
+
+h4{
+	margin-bottom: -23px;
+}
+
+h3{
+	margin-bottom: 2px;
+}
+
+li{
+	color: #CD00CD;
+	list-style: none;
+	margin-left: -40px;
+	margin-bottom: 15px;
+}
+
+p{
+	color: #5D76CB;
+	text-align: justify;
+}
+
+.per:first-letter{
+	font-size: 250%;
+	color:#5D76CB;
+	font-weight: bolder;
+}
+
+.per{
+	margin-top: 40px;
+}
+
+img{
+	margin-right: 20px;
+	margin-left: 20px;
+	width: 30%;
+	margin-top: -28px;
+}
+
+.pril{
+	margin-top: 100px;
+}
+
+table{
+	border-collapse: collapse;
+	margin: auto;
+	margin-top: 35px;
+	margin-bottom: 100px;
+}
+
+
+td, th{
+	border: 2px ridge gray;
+	background-color: #f1f1f1;
+	font-size: 16px;
+}
+
+th{
+	background-color: #d2d0d0;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.nom{
+	text-align: center;
+	padding: 0 10px;
+}
+
+.prod{
+	padding-right: 100px;
+}
+
+.kol{
+	text-align: center;
+	padding: 0 25px;
+}
+
+tfoot td{
+	border: none;
+	text-align: center;
+	background-color: transparent;
+}
+
+caption{
+	color: #5D76CB;
+	font-weight: bolder;
+}
+a{
+	text-decoration: none;
+    color: #CD00CD;
+}
+
+.cod{
+    color: #CD00CD;
+}
+
+.img3{
+    padding-top: 20px;
+}
+
+.nana{
+    padding-left: 450px;
+    color: #CD00CD;
+}
+
+.img4{
+    padding-top: 30px
+}
+
+.img5{
+    padding-top: 26px;
+}

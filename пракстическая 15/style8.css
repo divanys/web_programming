@@ -1,0 +1,19 @@
+@keyframes move{
+    0%{margin-left: 0%}
+    50%{margin-left: 25%}
+    100%{margin-left: 0%}
+}
+
+#anim{
+	animation-play-state: paused;
+	animation-duration:5s;
+	animation-name: move;
+	animation-iteration-count: infinite;
+	animation-timing-function:linear;
+	border: 1px solid red;
+	height: 50px;
+    width: 75px;
+}
+#anim:hover{
+	animation-play-state: running;
+}

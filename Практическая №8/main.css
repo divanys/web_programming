@@ -17,6 +17,10 @@ a, a:active, a:visited{
     color: blue;
     text-decoration: none;
 }
+a:hover{
+    color: palevioletred;
+    text-decoration: none;
+}
 .link{
     text-align: right;
 }
